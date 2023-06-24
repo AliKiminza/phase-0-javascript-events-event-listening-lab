@@ -1,2 +1,11 @@
-function addingEventListener() {
-}
+
+const input = document.getElementById('input');
+ 
+ function addingEventListener(){
+    alert('binds an event listener in addingEventListener()')
+input.addEventListener('click', addingEventListener);
+ }
+
+addingEventListener();
+
+
